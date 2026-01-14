@@ -12,7 +12,7 @@ function step(timestamp){
     const elapsed=timestamp - start;
 
    
-    soccer.style.transform=`translateX(${elapsed/20}px) rotate(${elapsed/10}deg)`;
+    soccer.style.transform=`translateY(${elapsed/20}px) rotate(${elapsed/10}deg)`;
 
     if(elapsed>5000){
         done=true;
